@@ -6,7 +6,6 @@ public class App
 {
     public int []  sort(int[] args)
     {
-//        int[] arr = new int[10];
 
         if(args == null){
             throw new IllegalArgumentException("Too many arguments");
