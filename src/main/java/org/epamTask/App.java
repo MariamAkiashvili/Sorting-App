@@ -2,13 +2,14 @@ package org.epamTask;
 
 import java.util.Arrays;
 
-import org.apache.logging.log4j.*;
-//import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class App 
 {
     private static final Logger logger = LogManager.getLogger(App.class);
-    public int []  sort(int[] args)
+
+    public static void main(String[] args)
     {
 
         logger.info("Sorting started");
@@ -22,13 +23,24 @@ public class App
             throw new IllegalArgumentException("Too many arguments");
         }
 
-        Arrays.sort(args);
 
-        for (int arg : args) {
-            System.out.println(arg);
+        int[] intArgs = new int[args.length];
+        for (int i = 0; i < args.length; i++) {
+            try {
+                intArgs[i] = Integer.parseInt(args[i]);
+            } catch (NumberFormatException e) {
+                logger.error("Invalid input provided");
+                throw new IllegalArgumentException("Invalid input provided: " + args[i]);
+            }
+        }
+
+        Arrays.sort(intArgs);
+
+        for (int arg : intArgs) {
+            System.out.println(String.valueOf(arg));
         }
 
         logger.info("Sorting finished");
-        return args;
+
     }
 }

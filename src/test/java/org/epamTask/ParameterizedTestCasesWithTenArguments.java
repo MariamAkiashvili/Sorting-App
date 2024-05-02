@@ -5,6 +5,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -12,31 +14,38 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class ParameterizedTestCasesWithTenArguments {
 
-    private final int[] input;
-    private final int[] expected;
+    private final String[] input;
+    private final String expected;
 
-    public ParameterizedTestCasesWithTenArguments(int[] input, int [] expected) {
+    public ParameterizedTestCasesWithTenArguments(String[] input, String expected) {
         this.input = input;
         this.expected = expected;
     }
 
-    private App app = new App();
+//    private final App app = new App();
 
 
     @Parameterized.Parameters
     public static Collection<Object[]> data(){
         return Arrays.asList(new Object[][]{
-                {new int[]{4, 1, 3, 12, 13, 12, 53, 1 ,1 ,3 }, new int[]{1,1,1,3,3,4,12,12,13,53}},
-                {new int[]{10, 9, 1, 23, 1, 13, 1, 7, 12, 26}, new int[] {1,1,1,7,9,10,12,13,23,26}},
-                {new int[]{1, 1, 1,1,1,1,1,1,1,1}, new int[]{1, 1, 1,1,1,1,1,1,1,1}},
-                {new int[]{-20, 1, 10, -123, -123, -2, 56,1, 12, 46}, new int[]{-123,-123,-20,-2,1,1,10,12,46,56}}
+                {new String[]{"4", "1", "3", "12", "13", "12", "53", "1" ,"1" ,"3" }, "1\r\n1\r\n1\r\n3\r\n3\r\n4\r\n12\r\n12\r\n13\r\n53\r\n"},
+                {new String[]{"10", "9", "1", "23", "1", "13", "1", "7", "12", "26"}, "1\r\n1\r\n1\r\n7\r\n9\r\n10\r\n12\r\n13\r\n23\r\n26\r\n"},
+                {new String[]{"1", "1", "1","1","1","1","1","1","1","1"}, "1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n"},
+                {new String[]{"-20", "1", "10", "-123", "-123", "-2", "56","1", "12", "46"}, "-123\r\n-123\r\n-20\r\n-2\r\n1\r\n1\r\n10\r\n12\r\n46\r\n56\r\n"}
         });
     }
 
     @Test
     public void testMoreThanTenArgumentsCase(){
 
-       Assert.assertArrayEquals(expected,app.sort(input));
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        App.main(input);
+
+        System.setOut(System.out);
+
+       Assert.assertEquals(expected,outContent.toString());
     }
 
 

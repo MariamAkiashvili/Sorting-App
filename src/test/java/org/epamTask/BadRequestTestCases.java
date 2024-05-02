@@ -3,20 +3,29 @@ package org.epamTask;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
 
 public class BadRequestTestCases{
-    private App app = new App();
 
     @Test
     public void testEmptyCase()
     {
-        int[] arr = new int[] {};
-        Assert.assertArrayEquals(new int[]{},app.sort(arr));
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        System.setOut(System.out);
+        App.main(new String[] {});
+
+
+        Assert.assertEquals("", outContent.toString());
+
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void testNullCase(){
-        app.sort(null);
+
+        App.main(null);
     }
 
 

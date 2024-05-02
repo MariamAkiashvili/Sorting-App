@@ -1,0 +1,5 @@
+org\epamTask\ParameterizedTestCases.class
+org\epamTask\ParameterizedTestCasesWithTenArguments.class
+org\epamTask\ParameterizedTestWithOneArgumentsOnly.class
+org\epamTask\ParameterizedTestCasesWithMoreThanTenArguments.class
+org\epamTask\BadRequestTestCases.class

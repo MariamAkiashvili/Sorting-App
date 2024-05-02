@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85543029-456f-4d6c-944e-df59a074f50d" name="Changes" comment="Add Loggers">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/epamTask/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epamTask/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/BadRequestTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/BadRequestTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithMoreThanTenArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithMoreThanTenArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithTenArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithTenArguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestWithOneArgumentsOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestWithOneArgumentsOnly.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MariamAkiashvili&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MariamAkiashvili/Sorting-App.git&quot;,
+    &quot;accountId&quot;: &quot;6ba9dcf3-a404-42aa-bac4-301846a1e3f1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fZS0bnzEihSnivX8Bj3tDSuFP0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.App.executor": "Run",
+    "JUnit.AppTest.executor": "Run",
+    "JUnit.AppTest.nullCase.executor": "Run",
+    "JUnit.AppTest.testEmptyCase.executor": "Debug",
+    "JUnit.BadRequestTestCases.executor": "Run",
+    "JUnit.BadRequestTestCases.testEmptyCase.executor": "Run",
+    "JUnit.ParameterizedTestCases.executor": "Run",
+    "JUnit.ParameterizedTestCases.testOneArgumentWithParameters.executor": "Run",
+    "JUnit.ParameterizedTestCases.testWithParameters.executor": "Run",
+    "JUnit.ParameterizedTestCasesWithMoreThanTenArguments.executor": "Run",
+    "JUnit.ParameterizedTestCasesWithMoreThanTenArguments.testMoreThanTenArgumentsCase.executor": "Run",
+    "JUnit.ParameterizedTestCasesWithMoreThanTenArguments.testWithParameters.executor": "Run",
+    "JUnit.ParameterizedTestCasesWithTenArguments.executor": "Run",
+    "JUnit.ParameterizedTestWithOneArgumentsOnly.executor": "Run",
+    "JUnit.ParameterizedTestWithOneArgumentsOnly.testOneArgumentWithParameters.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.SortingApp [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Merging main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/EpamJavaCourse/SortingApp/src/main/resources",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\EpamJavaCourse\SortingApp\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.epamTask" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BadRequestTestCases.testEmptyCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epamTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.epamTask" />
+      <option name="MAIN_CLASS_NAME" value="org.epamTask.BadRequestTestCases" />
+      <option name="METHOD_NAME" value="testEmptyCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedTestCasesWithMoreThanTenArguments.testMoreThanTenArgumentsCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epamTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.epamTask" />
+      <option name="MAIN_CLASS_NAME" value="org.epamTask.ParameterizedTestCasesWithMoreThanTenArguments" />
+      <option name="METHOD_NAME" value="testMoreThanTenArgumentsCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedTestCasesWithMoreThanTenArguments.testWithParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epamTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.epamTask" />
+      <option name="MAIN_CLASS_NAME" value="org.epamTask.ParameterizedTestCasesWithMoreThanTenArguments" />
+      <option name="METHOD_NAME" value="testWithParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedTestCases.testOneArgumentWithParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epamTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.epamTask" />
+      <option name="MAIN_CLASS_NAME" value="org.epamTask.ParameterizedTestCases" />
+      <option name="METHOD_NAME" value="testOneArgumentWithParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedTestWithOneArgumentsOnly.testOneArgumentWithParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SortingApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.epamTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.epamTask" />
+      <option name="MAIN_CLASS_NAME" value="org.epamTask.ParameterizedTestWithOneArgumentsOnly" />
+      <option name="METHOD_NAME" value="testOneArgumentWithParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParameterizedTestWithOneArgumentsOnly.testOneArgumentWithParameters" />
+        <item itemvalue="JUnit.BadRequestTestCases.testEmptyCase" />
+        <item itemvalue="JUnit.ParameterizedTestCases.testOneArgumentWithParameters" />
+        <item itemvalue="JUnit.ParameterizedTestCasesWithMoreThanTenArguments.testMoreThanTenArgumentsCase" />
+        <item itemvalue="JUnit.ParameterizedTestCasesWithMoreThanTenArguments.testWithParameters" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85543029-456f-4d6c-944e-df59a074f50d" name="Changes" comment="" />
+      <created>1714006887332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714006887332</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit V1">
+      <option name="closed" value="true" />
+      <created>1714247345122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714247345122</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Loggers">
+      <option name="closed" value="true" />
+      <created>1714407691776</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714407691776</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit V1" />
+    <MESSAGE value="Add Loggers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Loggers" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCases.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/epamTask/BadRequestTestCases.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestWithOneArgumentsOnly.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestWithOneArgumentsOnly.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestWithOneArgumentsOnly.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/epamTask/App.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCases.java</url>
+          <line>35</line>
+          <properties class="org.epamTask.ParameterizedTestCases">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
