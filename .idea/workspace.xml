@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85543029-456f-4d6c-944e-df59a074f50d" name="Changes" comment="Add Loggers">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="85543029-456f-4d6c-944e-df59a074f50d" name="Changes" comment="Restore Deleted Files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/epamTask/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/epamTask/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/BadRequestTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/BadRequestTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithMoreThanTenArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithMoreThanTenArguments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithTenArguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestCasesWithTenArguments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestWithOneArgumentsOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/epamTask/ParameterizedTestWithOneArgumentsOnly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +63,10 @@
     "JUnit.ParameterizedTestWithOneArgumentsOnly.testOneArgumentWithParameters.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.SortingApp [clean,install].executor": "Run",
+    "Maven.SortingApp [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/Desktop/EpamJavaCourse/SortingApp/src/main/resources",
@@ -210,13 +199,22 @@
       <option name="project" value="LOCAL" />
       <updated>1714407691776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Restore Deleted Files">
+      <option name="closed" value="true" />
+      <created>1714659144722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714659144722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit V1" />
     <MESSAGE value="Add Loggers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Loggers" />
+    <MESSAGE value="Restore Deleted Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restore Deleted Files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
