@@ -19,6 +19,15 @@
 
   <dependencies>
     <dependency>
+      <groupId>SortingApp</groupId>
+      <artifactId>SortingApp</artifactId>
+      <version>1.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/src/main/resources/SortingApp.jar</systemPath>
+    </dependency>
+
+
+    <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.16.1</version>

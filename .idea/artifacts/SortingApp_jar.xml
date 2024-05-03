@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="SortingApp:jar">
+  <artifact type="jar" build-on-make="true" name="SortingApp:jar">
     <output-path>$PROJECT_DIR$/src/main/resources</output-path>
     <root id="archive" name="SortingApp.jar">
       <element id="module-output" name="SortingApp" />
